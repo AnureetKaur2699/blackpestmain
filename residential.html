@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Residential-Page</title>
+
+    <!-- =====================================================
+         BOOTSTRAP
+====================================================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- =====================================================
+         FONT AWESOME
+====================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- =====================================================
+         GOOGLE FONT - WORK SANS
+====================================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <!-- =====================================================
+         CUSTOM CSS
+====================================================== -->
+
+    <link rel="stylesheet" href="css/style.css?ghghk">
+    <link rel="stylesheet" href="css/responsive.css?ghjgh">
+    <link rel="stylesheet" href="font/stylesheet.css">
+
+</head>
+
+<body>
+
+
+    <!-- ===== HEADER ===========-->
+    <header class="site-header">
+
+        <div class="top-header">
+            <div class="container-fluid">
+                <div class="top-hdr-inr">
+                    <div class="contact-hours">
+                        Available 8am - 5pm - Click-To-Call:
+                        <a href="tel:5037237957"> 503-723-7957</a>
+                    </div>
+                    <div class="right-side">
+                        <p>Follow Our Social :</p>
+                        <a href="https://www.facebook.com/Blacks-Pest-Services-100474870003427/">
+                            <img src="images/top-socail-icn1.svg" alt="facebook">
+                        </a>
+                        <a href="https://www.yelp.com/biz/blacks-pest-services-west-linn">
+                            <img src="images/top-socail-icn2.svg" alt="social icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="nav-inr">
+                    <div class="logo-menu">
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="images/logo.svg" alt="Black's Pest Services" class="site-logo">
+                        </a>
+
+
+                        <!-- MOBILE MENU -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="bar bar1"></span>
+                            <span class="bar bar2"></span>
+                            <span class="bar bar3"></span>
+
+                        </button>
+                    </div>
+
+                    <div class="menu-lnk_sld">
+                        <div class="collapse navbar-collapse centr-links" id="mainNavigation">
+
+                            <ul class="navbar-nav align-items-lg-center">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="./index.html">
+                                        Home
+                                    </a>
+                                </li>
+
+                                <!-- About -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./about.html">
+                                        About
+                                    </a>
+                                </li>
+
+                                <!-- Residential Dropdown -->
+                                <li class="nav-item dropdown active">
+                                    <div class="nav-link drpdwn-toggle" href="./residential.html"
+                                        id="residentialDropdown" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Residential
+                                        <span class="drop_icn"><i class="fas fa-chevron-down"></i></span>
+                                    </div>
+                                    <div class="submenu-cont">
+                                        <ul class="dropdown-submenu" aria-labelledby="residentialDropdown">
+                                            <li>
+                                                <a class="dropdown-item" href="#">
+                                                    House Ants
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="residential-details.html">
+                                                    Mouse Control
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </li>
+
+                                <!-- Commercial Dropdown -->
+                                <li class="nav-item dropdown">
+                                    <div class="nav-link  drpdwn-toggle" href="commercial.html" id="commercialDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Commercial
+                                        <span class="drop_icn"><i class="fas fa-chevron-down"></i></span>
+                                    </div>
+                                    <div class="submenu-cont">
+                                        <ul class="dropdown-submenu" aria-labelledby="commercialDropdown">
+                                            <li>
+                                                <a class="dropdown-item" href="commercial-detail.html">
+                                                    Manufacturing & Warehousing
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">
+                                                    Restaurants & Food Service
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">
+                                                    Schools & Colleges
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">
+                                                    Other Organizations
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <!-- Contact -->
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="./contact-page.html">
+                                        Contact
+                                    </a>
+                                </li>
+
+                                <!-- Blog -->
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="./blog.html">
+                                        Blog
+                                    </a>
+                                </li>
+
+                                <!-- More Dropdown -->
+                                <li class="nav-item dropdown">
+                                    <div class="nav-link  drpdwn-toggle" href="#" id="moreDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        More<span class="drop_icn"><i class="fas fa-chevron-down"></i></span>
+                                    </div>
+                                    <div class="submenu-cont">
+                                        <ul class="dropdown-submenu" aria-labelledby="moreDropdown">
+                                            <li>
+                                                <a class="dropdown-item" href="./new-customer-portal.html">
+                                                    New Customer Portal
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <div class="header-button">
+                            <a href="#" class="cta cta-green">
+                                Schedule Your Service
+                                <img src="images/rot-arrow.svg" alt="Arrow">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="hero-section inner-banner sec-with-bg p-80 pt-240 residential-ban"
+            style="background-image: url('./images/Residential.png');">
+            <div class="container-fluid">
+                <div class="inner-content">
+                    <div class="hero-content" data-aos="zoom-in" data-aos-duration="1000">
+                        <h1>
+                            Residential Service
+                        </h1>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="common-pera-sec pt-110 pb-90 ">
+            <div class="container">
+                <div class="comon-wrapper text-center size-20" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>Protect Your Home</h2>
+                    <p>We offer extensive knowledge in pest management and can eliminate all of your pest worries
+                        guaranteed. To keep costs down for our customers, we start each service with correctly
+                        identifying the target pest. Unlike less reputable pest control companies, we have no qualms
+                        about declining service unless there is proof of actual infestation. This also cuts down our
+                        use of pesticides until they are really necessary.</p>
+                    <p>Our home pest control services commonly include: crawlspace clean outs, ant control, termite and
+                        carpenter ant elimination, rodent control, wood beetle services, and stinging insect removal.
+                    </p>
+                    <p>Most of our services can be offered as a one-time treatment with a 30-day guaranteed. Other
+                        services such as carpenter ant treatment and wood beetle control may include longer guarantees.
+                        We also offer a quarterly service to further protect your home and family, please call our
+                        office for details.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="res-bxx-sec">
+            <div class="container">
+                <div class="res-bxx-cont">
+                    <div class="res-boxx-wrpp flex-col">
+                        <div class="res-bxx d-flex align-items-center">
+                            <div class="res-left-side">
+                                <img src="./images/mouse.png" alt="">
+                            </div>
+                            <div class="res-ryt-side">
+                                <div class="mission-text-cont">
+                                    <div class="mission-list-cont">
+                                        <div class="mission-sub-hd size-20">
+                                            <h3>
+                                                Our Mission
+                                            </h3>
+                                            <p>Keep mice out of your home with effective removal and exclusion solutions
+                                                designed to eliminate current activity and prevent future entry.</p>
+                                        </div>
+                                        <div class="check-icon-list size-20">
+                                            <ul>
+                                                <li>Mouse inspection</li>
+                                                <li>Entry-point identification</li>
+                                                <li>Mouse removal</li>
+                                                <li>Exclusion solutions</li>
+                                                <li>Preventative protection</li>
+                                            </ul>
+                                        </div>
+                                        <div class="crd-anchor size-18  d-flex">
+                                            <a href="residential-details.html" class="d-flex">Learn More <img
+                                                    src="./images/anchor-arrow.svg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="res-bxx d-flex align-items-center">
+                            <div class="res-left-side">
+                                <img src="./images/house-ant.png" alt="">
+                            </div>
+                            <div class="res-ryt-side">
+                                <div class="mission-text-cont">
+                                    <div class="mission-list-cont">
+                                        <div class="mission-sub-hd size-20">
+                                            <h3>
+                                                House Ants
+                                            </h3>
+                                            <p>Stop ant infestations at the source with targeted treatments designed to
+                                                protect your home and prevent ants from returning.</p>
+                                        </div>
+                                        <div class="check-icon-list size-20">
+                                            <ul>
+                                                <li>Ant identification</li>
+                                                <li>Targeted treatment</li>
+                                                <li>Carpenter ant control</li>
+                                                <li>Nest elimination</li>
+                                                <li>Long-term prevention</li>
+                                            </ul>
+                                        </div>
+                                        <div class="crd-anchor size-18  d-flex">
+                                            <a href="#" class="d-flex">Learn More <img src="./images/anchor-arrow.svg"
+                                                    alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="res-bxx d-flex align-items-center">
+                            <div class="res-left-side">
+                                <img src="./images/bio.png" alt="">
+                            </div>
+                            <div class="res-ryt-side">
+                                <div class="mission-text-cont">
+                                    <div class="mission-list-cont">
+                                        <div class="mission-sub-hd size-20">
+                                            <h3>
+                                                Bio-Rational Pest Control
+                                            </h3>
+                                            <p>Use smarter, responsible pest management that targets the source of the
+                                                problem while reducing unnecessary pesticide use.</p>
+                                            <div class="check-icon-list size-20">
+                                                <ul>
+                                                    <li>Targeted pest identification</li>
+                                                    <li>Thorough property inspection</li>
+                                                    <li>Customized treatment solutions</li>
+                                                    <li>Reduced pesticide use</li>
+                                                    <li>Long-term prevention</li>
+                                                </ul>
+                                            </div>
+                                            <div class="crd-anchor size-18  d-flex">
+                                                <a href="#" class="d-flex">Learn More <img
+                                                        src="./images/anchor-arrow.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="res-video pt-100 pb-130">
+            <div class="container">
+                <div class="video-wrapper" data-aos="fade-up" data-aos-duration="1000">
+                    <video width="100%" poster="./images/res-thamb.png">
+                        <source src="./images/Pest-services.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <button class="video-play-btn dark" aria-label="Play video">
+                        <span>▶</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="process-section light-sec pt-100 pb-110 what-sec">
+            <div class="container">
+                <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>
+                        What Can We Help You With?
+                    </h2>
+                </div>
+
+                <div class=" process-row" data-aos="fade-up" data-aos-duration="1000">
+                    <!-- STEP 1 -->
+                    <div class="process-card">
+
+                        <div class="process-icon make-call">
+                            <a href="contact-page.html" class="make-call-link"> <svg width="70" height="70"
+                                    viewBox="0 0 72 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                    <!-- Phone -->
+                                    <path class="phone-icon"
+                                        d="M57.3642 46.9728C55.5722 45.3535 53.2569 44.4599 50.8443 44.4599C48.0996 44.4599 45.4708 45.6297 43.6314 47.6619L41.5151 49.9999C40.6121 50.9993 39.9378 52.1488 39.5101 53.4189L39.3211 53.9843L38.7658 53.765C29.3316 50.0403 21.6443 42.9845 17.1185 33.898L16.8191 33.2976L17.463 33.1039C19.1547 32.5953 20.6752 31.6308 21.8644 30.3157L23.9783 27.9793C25.722 26.052 26.6094 23.5624 26.478 20.9686C26.3489 18.3748 25.2157 15.9863 23.29 14.2449L19.7209 11.0188C17.9289 9.39717 15.6143 8.50586 13.2017 8.50586C10.457 8.50586 7.82744 9.67094 5.98728 11.7048L3.87256 14.0458C3.60268 14.3445 3.34136 14.6727 3.09559 15.0281L2.99837 15.1354C1.00187 16.8426 -0.696747 20.9966 0.287891 26.0839C4.83231 49.7494 24.7685 67.7817 48.7723 69.9337C51.9215 70.2207 54.8855 69.5697 57.1324 68.1892C58.0323 67.6689 58.8256 67.0296 59.5069 66.2752L61.6224 63.9357C65.218 59.959 64.9092 53.7984 60.9333 50.2028L57.3642 46.9728Z"
+                                        fill="#1B9958" />
+
+                                    <!-- Ring 1 -->
+                                    <path class="ring ring1"
+                                        d="M36.0027 0C34.7505 0 33.7363 1.01575 33.7363 2.26793C33.7363 3.51856 34.7513 4.53353 36.0027 4.53353C51.8899 4.53353 64.8154 17.4598 64.8154 33.347C64.8154 34.5976 65.8304 35.6126 67.0826 35.6126C68.334 35.6126 69.3482 34.5984 69.3482 33.347C69.3482 14.9586 54.3896 0 36.0027 0Z"
+                                        fill="#1B9958" />
+
+                                    <!-- Ring 2 -->
+                                    <path class="ring ring2"
+                                        d="M53.7252 33.7122C53.7252 34.9644 54.7401 35.9786 55.9915 35.9786C57.2429 35.9786 58.2579 34.9636 58.2579 33.7122C58.2579 21.2409 48.1105 11.0928 35.6369 11.0928C34.3855 11.0928 33.3713 12.107 33.3713 13.3576C33.3713 14.6098 34.3855 15.624 35.6369 15.624C45.6124 15.624 53.7252 23.7375 53.7252 33.7122Z"
+                                        fill="#1B9958" />
+
+                                </svg></a>
+
+
+                            <span>1</span>
+                        </div>
+
+                        <h4>
+                            <a href="contact-page.html" class="inner-link">Schedule An Appointment</a>
+
+                        </h4>
+
+                        <p class="size-18">
+                            Call our friendly office personnel to schedule an appointment. We fit you into our schedule
+                            as soon as possible and give you a 1 to 2 hour service window for our estimated time of
+                            arrival. Our office hours are Monday thru Friday, 8am-5pm.
+                        </p>
+
+                    </div>
+                    <!-- STEP 2 -->
+                    <div class="process-card">
+
+                        <div class="process-icon">
+
+                            <img src="images/process-icon2.svg" alt="">
+
+                            <span>2</span>
+
+                        </div>
+
+                        <h4>
+                            Free Inspection
+                        </h4>
+
+                        <p class="size-18">
+                            One of our technicians or our manager will meet you at your home and preform a thorough
+                            inspection. Depending on your concerns, the inspection may include and crawl space or attic
+                            examination.
+                        </p>
+
+                    </div>
+                    <!-- STEP 3 -->
+                    <div class="process-card">
+
+                        <div class="process-icon">
+
+                            <img src="images/process-icon3.svg" alt="">
+
+                            <span>3</span>
+
+                        </div>
+
+                        <h4>
+                            Customized Treatment
+                        </h4>
+
+                        <p class="size-18">
+                            Depending on the treatment needed, our technician will treat your home or schedule a follow
+                            up visit to eliminate your pest concerns. Routine service options are also available for
+                            homes that need regular monitoring.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-contact-grid">
+
+                <!-- ADDRESS -->
+                <div class="footer-contact">
+
+                    <div class="footer-icon">
+                        <img src="images/foot-icn1.svg" alt="">
+                    </div>
+
+                    <div class="cont-ftr upper">
+                        <h5>Office Address:</h5>
+
+                        <p>
+                            (Does not receive Mail)
+                            <br>
+                            610 1st Street Gladstone, OR 97027
+                        </p>
+                    </div>
+
+                    <div class="cont-ftr lower">
+                        <h5>Mailing Address:</h5>
+
+                        <p>
+                            22975 S Bland Circle West Linn, OR 97068
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- HOURS -->
+                <div class="footer-contact">
+
+                    <div class="footer-icon">
+                        <img src="images/foot-icn2.svg" alt="">
+                    </div>
+
+                    <div class="cont-ftr upper">
+                        <h5>Office Hours:</h5>
+
+                        <p>
+                            Mon - Fri: 8am - 5pm
+                            <br>
+                            Saturday: Closed Sunday: Closed
+                        </p>
+                    </div>
+
+                    <div class="cont-ftr lower">
+                        <h5>
+                            <a href="tel:5037237957">503-723-7957</a>
+                        </h5>
+
+                        <p>
+                            <a href="mailto:support@blackspestservices.com">
+                                support@blackspestservices.com
+                            </a>
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- SUBSCRIBE -->
+                <div class="footer-contact">
+
+                    <div class="footer-icon">
+                        <img src="images/foot-icn3.svg" alt="">
+                    </div>
+
+                    <div class="subscribe-wrapper">
+
+                        <h5>Subscribe Us</h5>
+
+                        <p>
+                            Subscribe to Our Newsletter
+                        </p>
+
+                        <form class="subscribe-form">
+
+                            <input type="email" placeholder="Enter Email Address">
+
+                            <button type="submit">
+                                Subscribe
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FOOTER MAIN -->
+
+            <div class="row  footer-main">
+
+                <!-- BRAND -->
+
+                <div class="col-lg-4">
+
+                    <div class="footer-brand">
+                        <a href="index.html" class="footer-logo-link"> <img src="images/footer-logo.svg"
+                                alt="Black's Pest Services"></a>
+
+
+                        <p>
+                            Black's Pest Services offers pest control for commercial and residential customers in West
+                            Linn, Oregon City, Gladstone, Lake Oswego, Clackamas, Happy Valley, Milwaukie, Gresham,
+                            Beaverton, Tigard, Tualatin, Troutdale, and Portland. Services include: rat control, mouse
+                            control, bee control, termite control, ant control, silverfish control, spider control, and
+                            much more!
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+
+                <!-- LINKS -->
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-links">
+
+                        <h5>Quick Links</h5>
+
+                        <div class="footer-links-grid">
+
+                            <div>
+                                <a href="./index.html">Home</a>
+                                <a href="./about.html">About</a>
+                                <a href="./residential.html">Residential</a>
+                                <a href="./commercial.html">Commercial</a>
+                                <a href="./contact-page.html">Contact Us</a>
+                            </div>
+
+                            <div>
+                                <a href="./blog.html">Blog</a>
+                                <a href="./new-customer-portal.html">More</a>
+                                <a href="./privacy-policy.html">Privacy Policy</a>
+                                <a href="./terms&conditions.html">Term &amp; Conditions</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SOCIAL -->
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-links">
+
+                        <h5>
+                            Connect with us
+                        </h5>
+
+                        <div class="social-icons">
+
+                            <a href="https://www.facebook.com/Blacks-Pest-Services-100474870003427/"
+                                aria-label="Facebook">
+                                <img src="images/ftr-main-icn1.svg" alt="">
+                            </a>
+
+                            <a href="https://www.yelp.com/biz/blacks-pest-services-west-linn" aria-label="">
+                                <img src="images/ftr-main-icn2.svg" alt="">
+                            </a>
+
+                            <a href="mailto:support@blackspestservices.com" aria-label="mail">
+                                <img src="images/ftr-main-icn3.svg" alt="">
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="npma ">
+                <div class="img-side">
+                    <img src="images/npma-img.png" alt="">
+                </div>
+                <div class="divider">
+
+                </div>
+
+                <p>
+                    Black’s Pest Services is committed to you and we guarantee our service.  We continuously strive
+                    to learn the newest advancements in the industry and we bring them to you. If you are looking
+                    for a quality, friendly, and mindful pest control company - please consider calling us, we would
+                    love to talk to you!
+                </p>
+
+            </div>
+
+
+
+
+
+        </div>
+
+        <!-- FOOTER BOTTOM -->
+        <div class="footer-bottom">
+            <p class="size-18">
+                © 2026 by Black's Pest Services. Created by Bryce Black
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- FLOATING BUTTON -->
+
+    <a href="#contact" class="floating-button" aria-label="Contact Black's Pest Services">
+        <img src="images/float-icn.svg" alt="">
+    </a>
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/Draggable.min.js"></script>
+    <!-- Lenis -->
+    <script src="https://unpkg.com/@studio-freight/lenis/dist/lenis.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/script.js?dgdsf"></script>
+    <!-- AOS JS -->
+    <script>
+        $(function () {
+            AOS.init();
+        });
+    </script>
+
+</body>
+
+</html>
